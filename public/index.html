@@ -10,12 +10,17 @@
     </script> -->
 </head>
 <body>
-    <div id="mario-char">
-        <div id="chat-window">
+    <div class="room">
+        <label for="room">Enter Room Name</label>
+        <input id="room" type="text" placeholder="Room"/>
+        <button id="joinRoom">Join</button>
+    </div>
+    <div class="mario-chat">
+        <div class="chat-window">
             <div id="output"></div>
             <div id="feedback"></div>
         </div>
-        <input id="handle" type="text" placeholder="handle"/>
+        <input id="User" type="text" placeholder="User"/>
         <input id="message" type="text" placeholder="message"/>
         <button id="send">Send</button>
     </div>
